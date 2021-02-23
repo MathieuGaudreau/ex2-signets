@@ -1,0 +1,60 @@
+.Dossier{
+
+width: 300px;
+margin: 0 10px 0 10px;
+
+    .couverture{
+
+        height: 220px;
+
+        img{
+            width: 100%;
+        }
+
+        .deplacer{
+            position: relative;
+            top: 50px;
+            left: 25px;
+            background-color: #333333;
+            opacity: 0.5;
+            display: block;
+            width: 20px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            transform: scale(2.7);
+            align-items: center;
+            height: 20px;
+        }
+    }
+
+    .info{
+        background-color: black;
+        height: 100%;
+        color: white;
+        height: 150px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+
+        h2{
+            margin-top: 0;
+            font-weight: 400;
+            margin-left: 20px;
+        }
+
+        p{
+            font-weight: bold;
+            margin-left: 20px;
+        }
+    }
+
+    button{
+        position: relative;
+        right: -250px;
+        bottom: 40px;
+        color: white;
+        background: none;
+        border: none;
+    }
+}
