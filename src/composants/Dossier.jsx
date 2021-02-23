@@ -9,7 +9,7 @@ export default function Dossier({id, titre, couleur, dateModif}) {
         <span className="deplacer"><Sort style={{ fontSize: 15, color: grey[500] }} /></span>
         <img src={`images-dossiers/${id}.png`} alt={titre}/>
       </div>
-      <div className="info">
+      <div className="info" style={{backgroundColor: couleur}}>
         <h2>{titre}</h2>
         <p>{dateModif}</p>
       </div>

@@ -2,19 +2,19 @@
   {
     "id": "d1",
     "titre": "JavaScript",
-    "couleur": "#900",
+    "couleur": "#000",
     "dateModif": "3 février 2021"
   },
   {
     "id": "d2",
     "titre": "Cadriciels",
-    "couleur": "#090",
+    "couleur": "#52C624",
     "dateModif": "13 février 2021"
   },
   {
     "id": "d3",
     "titre": "Firebase",
-    "couleur": "#009",
+    "couleur": "#F8AD0D",
     "dateModif": "11 janvier 2021"
   },
   {
